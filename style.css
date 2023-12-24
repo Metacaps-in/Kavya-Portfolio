@@ -164,7 +164,15 @@ body{
         right: 40px;
     }
   }
-  
+.buy_button{
+    position: fixed;
+    width: 150px;
+    height: 65px;
+    /* border: 1px solid grey; */
+    top: 20px;
+    border-radius: 10px;
+    right: 10px;
+}
   
 
 .form_flex{
