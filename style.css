@@ -105,16 +105,16 @@ body{
     }
 
 }
-@media only screen and (max-width: 980px){
-    .side{
-        margin-left: 30%;
-    }
+@media only screen and (max-width: 939px) and (min-width: 767){
+    /* .side{
+        margin-left: 50%;
+    } */
 }
-@media only screen and (max-width: 767px){
+/* @media only screen and (max-width: 767px){
     .side{
         margin-right: 50%;
     }
-}
+} */
 @media only screen and (max-width: 1024px) {
     .ther_div{
         font-size: 15px;
@@ -132,8 +132,10 @@ body{
     }
     .side{
         position: static; 
-        width: 140%;
+        width: 100%;
         top: 0;
+        /* left: 50%; */
+        /* margin-left: 50%; */
     }
     .around_flex{
         flex-wrap: wrap;
@@ -157,7 +159,7 @@ body{
         font-size: 15px;
     }
     .side_bar{
-        height: 60%;    
+        height: 41%;    
         top: 5%;
         right: 40px;
     }
@@ -170,15 +172,21 @@ body{
     justify-content: space-around;
 }
 @media only screen and (max-width: 768px) {
-   
     .text2{
         font-size: 15px;
     }
     .top_class{
-        margin-left: 15%;
+        /* margin-left: 15%; */
     }
     .button{
         width: 50%;
+    }
+    .side{
+        position: static; 
+        width: 100%;
+        top: 0;
+        /* left: 50%; */
+        margin-left: 5%;
     }
 }
 .writh{
