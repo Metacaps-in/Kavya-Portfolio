@@ -105,8 +105,16 @@ body{
     }
 
 }
-
-
+@media only screen and (max-width: 980px){
+    .side{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .side{
+        margin-right: 50%;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .ther_div{
         font-size: 15px;
