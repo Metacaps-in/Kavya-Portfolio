@@ -100,7 +100,7 @@ body{
 @media only screen and (max-width: 1441px) {
     .side_bar {
         top: 20px;
-        height: 50%;
+        height: 40%;
         overflow-y: auto; /* Enable vertical scrollbar */
     }
 
